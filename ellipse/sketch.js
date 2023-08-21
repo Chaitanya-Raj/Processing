@@ -9,10 +9,10 @@ function windowResized() {
 
 function draw() {
   if (mouseIsPressed) {
-    stroke(255, 255, 255);
+    stroke(255);
     fill(0);
   } else {
-    stroke(0, 0, 0);
+    stroke(0);
     fill(255);
   }
   ellipse(mouseX, mouseY, 80, 80);
